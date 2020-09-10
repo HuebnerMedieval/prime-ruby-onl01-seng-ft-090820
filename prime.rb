@@ -2,5 +2,5 @@
 def prime?(integer)
   factor_range = (2..Math.sqrt(integer))
   factor_array = factor_range.to_a
-  factor_array
+  factor_array.each do 
 end

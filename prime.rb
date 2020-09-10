@@ -12,7 +12,6 @@ def prime?(integer)
     factor_array = []
     test_array.find do |possible_factor|
       integer % possible_factor == 0
-      end
     end
   end
 end

@@ -14,7 +14,7 @@ def prime?(integer)
       integer % possible_factor == 0
     end
     binding.pry
-    if factor_array.length > 0
+    if factor_array.length > 1
       false
     else
       true

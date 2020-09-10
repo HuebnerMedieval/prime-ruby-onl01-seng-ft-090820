@@ -10,8 +10,13 @@ def prime?(integer)
     test_range = (2..Math.sqrt(integer))
     test_array = test_range.to_a
     factor_array = []
-    test_array.find do |possible_factor|
+    factor_array = test_array.find do |possible_factor|
       integer % possible_factor == 0
+    end
+    if factor_array.length > 0
+      false
+    else
+      true
     end
   end
 end

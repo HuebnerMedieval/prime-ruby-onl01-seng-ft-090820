@@ -9,6 +9,6 @@ def prime?(integer)
   else
     factor_range = (2..Math.sqrt(integer))
     factor_array = factor_range.to_a
-    binding.pry
+    factor_array
   end
 end

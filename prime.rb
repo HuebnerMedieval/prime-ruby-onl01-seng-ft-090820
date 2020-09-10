@@ -7,9 +7,10 @@ def prime?(integer)
   elsif integer == 2 || integer == 3
     true
   else
-    factor_range = (2..Math.sqrt(integer))
-    factor_array = factor_range.to_a
-    factor_array.each do |possible_factor|
+    test_range = (2..Math.sqrt(integer))
+    test_array = test_range.to_a
+    factor_array = []
+    test_array.each do |possible_factor|
       if integer % possible_factor == 0
         true
       else

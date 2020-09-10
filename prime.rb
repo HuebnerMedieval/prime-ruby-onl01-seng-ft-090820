@@ -15,11 +15,5 @@ def prime?(integer)
     else
       true
     end
-    # binding.pry
-    # if factor_array.length > 1
-    #   false
-    # else
-    #   true
-    # end
   end
 end

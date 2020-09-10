@@ -1,4 +1,4 @@
-include 'pry'
+require 'pry'
 
 # Add  code here!
 def prime?(integer)

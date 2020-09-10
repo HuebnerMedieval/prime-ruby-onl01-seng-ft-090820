@@ -5,5 +5,6 @@ def prime?(integer)
   factor_array.each do |factor|
     if integer % factor = 0
       false
+    end
   end
 end

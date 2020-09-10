@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(integer)
-  factor_range = (1..)
+  factor_range = (2..)
 end

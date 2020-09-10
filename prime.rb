@@ -13,7 +13,7 @@ def prime?(integer)
     factor_array << test_array.find do |possible_factor|
       integer % possible_factor == 0
     end
-    binding.pry
+    #binding.pry
     if factor_array.length > 1
       false
     else

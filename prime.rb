@@ -11,9 +11,9 @@ def prime?(integer)
     test_array = test_range.to_a
     factor_array = [1]
     if test_array.find { |possible_factor| integer % possible_factor == 0}
-      true
-    else
       false
+    else
+      true
     end
     # binding.pry
     # if factor_array.length > 1

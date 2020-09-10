@@ -2,5 +2,8 @@
 def prime?(integer)
   factor_range = (2..Integer.sqrt(integer))
   factor_array = factor_range.to_a
-  factor_array.include
+  factor_array.each do |factor|
+    if integer % factor = 0
+      false
+  end
 end

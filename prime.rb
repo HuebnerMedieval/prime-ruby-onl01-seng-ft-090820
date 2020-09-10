@@ -10,4 +10,5 @@ def prime?(integer)
         true
       end
     end
+  end
 end
